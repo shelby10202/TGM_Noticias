@@ -1,0 +1,142 @@
+body {
+    font-family: 'Fira Mono', monospace;
+    background-image:url(Sla.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Centraliza horizontal e verticalmente */
+    color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+main {
+    width: 100%;
+    max-width: 800px; /* Define a largura máxima para o conteúdo */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.audio-section {
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.audio-section:nth-child(odd) {
+    background-color: #1a1a1a;
+}
+
+.text h2 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.audio {
+    margin-top: 10px;
+}
+
+audio {
+    width: 100%;
+    background-color: #1a1a1a; /* Mudança da cor do reprodutor para cinza */
+    color: #ffffff;
+    border: none; /* Remover a borda */
+}
+
+footer {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #1a1a1a;
+}
+
+/* Estilos para telas menores de 768px */
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .audio-section {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+/* Estilos para telas muito estreitas (menos de 420px) */
+
+@media screen and (max-width: 420px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .audio-section {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+}
+
+/* Estilos para telas muito estreitas (menos de 421px) */
+
+@media screen and (max-width: 425px) {
+    header h1 {
+        font-size: 1.1em;
+        
+    }
+
+    main {
+        padding: 1px;
+    }
+
+    .audio-section {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 0.75em;
+    }
+}
+
+
